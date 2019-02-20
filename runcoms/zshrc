@@ -12,7 +12,7 @@ fi
 
 # Chruby
 source /usr/local/share/chruby/chruby.sh
-chruby ruby-2.1
+chruby ruby-2.2
 
 DEV_ROOT=~/development/backend_team/src
 export DEV_ROOT
