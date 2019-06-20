@@ -10,15 +10,6 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 fi
 
-# Chruby
-source /usr/local/share/chruby/chruby.sh
-chruby ruby-2.4
-
-DEV_ROOT=~/development/backend_team/src
-export DEV_ROOT
-
-DATA_BAG_PATH=$DEV_ROOT/chef-repo/data_bags
-export DATA_BAG_PATH
-
+source ~/dotfiles/sifi.rc
 
 # Customize to your needs...
